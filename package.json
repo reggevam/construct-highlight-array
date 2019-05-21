@@ -1,0 +1,23 @@
+{
+  "name": "construct-highlight-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggevam/construct-highlight-array.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggevam/construct-highlight-array/issues"
+  },
+  "homepage": "https://github.com/reggevam/construct-highlight-array#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
