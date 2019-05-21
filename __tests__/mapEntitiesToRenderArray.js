@@ -11,10 +11,10 @@ describe('mapEntitiesToRenderArray', () => {
     expect(result).toMatchSnapshot();
   });
 
-  test('adds empty label tags to from raw text to highligh array on large version', () => {
-    const result = mapEntitiesToRenderArray(largeText, largeLabels);
-    expect(result).toMatchSnapshot();
-  });
+  // test.skip('adds empty label tags to from raw text to highligh array on large version', () => {
+  //   const result = mapEntitiesToRenderArray(largeText, largeLabels);
+  //   expect(result).toMatchSnapshot();
+  // });
 
   test('expects each odd entity to be labeled and each even entity to be unlabeled', () => {
     const result = mapEntitiesToRenderArray(largeText, largeLabels);
